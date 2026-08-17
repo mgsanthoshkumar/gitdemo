@@ -34,3 +34,4 @@ echo "print list of lambda function" >> "$LOG_FILE"
 # AWS IAM Users
 echo "print list of IAM Users" >> "$LOG_FILE"
 /usr/local/bin/aws iam list-users >> "$LOG_FILE"
+# Emergency Fix: Explicit binary paths
